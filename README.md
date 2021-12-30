@@ -4,6 +4,8 @@ Thanks for :
  @mrismanaziz
  All
 
+**Jika Anda memerlukan tambahan module lagi dalam repo atau Jika Anda menemukan bug, silahkan report di group [@NegativeRoom](https://www.telegram.dog/NegativeRoombot)**
+
 ### Features
 - Sepenuhnya dapat dicustom.
 - Pesan sambutan & Forcesub yang dapat dicustom.
