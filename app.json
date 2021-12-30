@@ -6,7 +6,7 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/urgardaddy/fs2",
+  "repository": "https://github.com/Negativerooms/Negativefile",
   "logo": "https://telegra.ph/file/57b78e417dfb69822b6f5.png",
   "env": {
     "TG_BOT_TOKEN": {
