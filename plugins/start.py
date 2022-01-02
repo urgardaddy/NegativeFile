@@ -72,7 +72,7 @@ async def start_command(client: Client, message: Message):
             except BaseException:
                 return
         temp_msg = await message.reply("<code>Tunggu Sebentar...</code>")
-        temp_msg = await message.reply("<code>🕷</code>")
+        temp_msg = await message.reply("<code>😈</code>")
         try:
             messages = await get_messages(client, ids)
         except BaseException:
@@ -111,7 +111,7 @@ async def start_command(client: Client, message: Message):
                 pass
     else:
         buttons = [
-            [InlineKeyboardButton("🌐About me", callback_data="about")],
+            [InlineKeyboardButton("🌐 About me", callback_data="about")],
             [
                 InlineKeyboardButton("📢 Channel", url=client.invitelink),
                 InlineKeyboardButton("💭 Group", url=client.invitelink2),
@@ -150,7 +150,7 @@ async def not_joined(client: Client, message: Message):
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text="🔆 reload the Page. . . ",
+                    text="🥱 Try Again. . . ",
                     url=f"https://t.me/{client.username}?start={message.command[1]}",
                 )
             ]
