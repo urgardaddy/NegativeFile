@@ -60,7 +60,7 @@ async def batch(client: Client, message: Message):
         ]
     )
     await second_message.reply_text(
-        f"<b>Succses Create Link Batch :\n\nHere is Your Link\n</b>{link}",
+        f"<b>Succses create link batch . . .\n\nHere is your link :\n</b>{link}",
         quote=True,
         reply_markup=reply_markup,
     )
@@ -99,7 +99,7 @@ async def link_generator(client: Client, message: Message):
         ]
     )
     await channel_message.reply_text(
-        f"<b>Success Create Link Genlink :\n\nHere is Your Link</b>\n{link}",
+        f"<b>Success create link genlink . . .\n\nHere is your link :</b>\n{link}",
         quote=True,
         reply_markup=reply_markup,
     )
