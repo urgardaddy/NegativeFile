@@ -71,8 +71,7 @@ async def start_command(client: Client, message: Message):
                 ids = [int(int(argument[1]) / abs(client.db_channel.id))]
             except BaseException:
                 return
-        temp_msg = await message.reply("<code>Tunggu Sebentar...</code>")
-        temp_msg = await message.reply("<code>😈</code>")
+        temp_msg = await message.reply("😈")
         try:
             messages = await get_messages(client, ids)
         except BaseException:
@@ -198,7 +197,7 @@ async def send_text(client: Bot, message: Message):
             "<code>Broadcasting Message Tunggu Sebentar...</code>"
         )
         pls_wait = await message.reply(
-            "<code>⏳</code>"
+            "⏳"
         )
         for row in query:
             chat_id = int(row[0])
